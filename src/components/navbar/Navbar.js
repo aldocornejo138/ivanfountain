@@ -3,20 +3,23 @@ import { navLinksdata } from "../../constants";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { Link } from "react-scroll";
+import { IvanLogo } from "../../assets/index";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <div
-      className="max-w-screen-2x1 mx-auto px-16 w-full h-20 top-0 z-50 sticky flex justify-between items-center 
-    font-titleFont  "
+      className="max-w-screen-2xl mx-auto px-16 w-full h-20 top-0 z-50 sticky flex justify-between items-center 
+    font-titleFont"
     >
-      <h1 className="text-bodyColor font-bold">IVAN'S FOUNTAIN SERVICE</h1>
-      <div>
+      <div className="h-0">
+        <img src={IvanLogo} alt="IvanLogo" />
+      </div>
+      <div className="h-0">
         <ul className=" hidden mdl:inline-flex items-center gap-20 ">
           {navLinksdata.map(({ _id, title, link }) => (
             <li
-              className="text-base font-normal text-bodyColor tracking-wide cursor-pointer hover:text-bodyColor duration-300"
+              className="text-base font-normal text-designColor tracking-wide cursor-pointer hover:text-bodyColor duration-300"
               key={_id}
             >
               <Link
@@ -36,7 +39,7 @@ const Navbar = () => {
           onClick={() => setShowMenu(!showMenu)}
           className="text-xl mdl:hidden w-10 h-10 inline-flex items-center justify-center rounded-full text-bodyColor cursor-pointer"
         >
-          <h2 className="flex justify-between items-center gap-2 text-bodyColor">
+          <h2 className="flex justify-between items-center gap-2 text-designColor">
             MENU <FiMenu />
           </h2>
         </span>
