@@ -3,10 +3,12 @@ import React from "react";
 const Head = () => {
   return (
     <div
-      className="max-w-screen-2x1 mx-auto px-16 w-full h-20 top-0 z-50 sticky flex justify-between items-center 
-    font-titleFont  "
+      className="bg-bodyColor max-w-screen-2xl mx-auto xs:px-4 lgl:pl-28 lgl:pr-24 
+      lgl:w-full h-20 top-0 sticky headZIndex flex justify-between items-center font-titleFont"
     >
-      <h1 className="text-designColor font-bold">IVAN'S FOUNTAIN SERVICE</h1>
+      <h1 style={{ fontSize: 15 }} className="text-designColor font-bold">
+        IVAN'S FOUNTAIN SERVICE
+      </h1>
       <h1 className="text-designColor font-bold">(951)-795-3173</h1>
     </div>
   );

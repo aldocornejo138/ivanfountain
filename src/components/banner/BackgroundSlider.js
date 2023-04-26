@@ -28,7 +28,8 @@ const BackgroundSlider = () => {
     <div className="App">
       <div className="countiner-style">
         <div style={bgImageStyle}></div>
-        <div className="transparent-background">
+        <div className="transparent-background"></div>
+        <div className="navbarStyle">
           <Navbar />
         </div>
         <div className="description"></div>

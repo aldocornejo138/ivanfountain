@@ -6,3 +6,11 @@
 .right {
   float: right;
 }
+.App {
+  text-align: center;
+  height: 100vh;
+  background-color: #000000;
+}
+.headZIndex {
+  z-index: 999;
+}

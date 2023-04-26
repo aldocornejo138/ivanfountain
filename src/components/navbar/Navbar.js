@@ -8,11 +8,8 @@ import { IvanLogo } from "../../assets/index";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <div
-      className="max-w-screen-2xl mx-auto px-16 w-full h-20 top-0 z-50 sticky flex justify-between items-center 
-    font-titleFont"
-    >
-      <div className="h-0">
+    <div className="mx-auto lgl:px-16 pl-4 pr-12 sml:h-32 w-full h-8 md:h-32 flex justify-between items-center font-titleFont">
+      <div className="lgl:h-0 xs:h-0 xs:w-28 lgl:w-auto mdl:w-32">
         <img src={IvanLogo} alt="IvanLogo" />
       </div>
       <div className="h-0">
