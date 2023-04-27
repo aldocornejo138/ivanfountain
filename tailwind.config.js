@@ -19,6 +19,7 @@ module.exports = {
       },
       colors: {
         bodyColor: "#000000",
+        cardColor: "#779f75",
         mainColor: "#2C2E2F",
         lightText: "#A5ABAC",
         boxBg: "linear-gradient(145deg, #1e2024, #23272b)",
