@@ -14,3 +14,60 @@
 .headZIndex {
   z-index: 999;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.text-container {
+  text-align: left;
+}
+
+.card {
+  --gray: rgba(229, 231, 235, 1);
+  display: flex;
+  width: 1300px;
+  height: 325px;
+  grid-gap: 1.25rem;
+  gap: 1.25rem;
+  border-radius: 1rem;
+  background-color: rgb(0, 0, 0);
+  padding: 1.5rem;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.card-picture {
+  width: 40%;
+  border-radius: 0.75rem;
+  background-color: var(--gray);
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) alternate-reverse infinite;
+}
+
+.card-Right {
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+  grid-gap: 1.25rem;
+  gap: 1.25rem;
+}
+
+.card-Title {
+  height: 3.5rem;
+  width: 100%;
+  border-radius: 1rem;
+  background-color: rgb(0, 0, 0);
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) alternate-reverse infinite;
+}
+
+.card-paragraph {
+  height: 150px;
+  width: 670px;
+  border-radius: 1rem;
+  background-color: rgb(0, 0, 0);
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) alternate-reverse infinite;
+}
