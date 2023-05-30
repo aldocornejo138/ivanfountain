@@ -19,7 +19,7 @@ const Services = () => {
         </div>
         <div className="card-Right">
           <div className="card-Title text-responsive">
-            <h1 className="text-4xl md:text-5xl text-designColor text-center font-bold capitalize">
+            <h1 className="text-4xl md:text-5xl  text-designColor text-center font-bold capitalize">
               Delivary and Installation
             </h1>
           </div>
@@ -38,7 +38,7 @@ const Services = () => {
       <div className="card">
         <div className="card-Right">
           <div className="card-Title text-responsive">
-            <h1 className="text-4xl md:text-5xl text-designColor text-center font-bold capitalize">
+            <h1 className="text-4xl md:text-5xl  text-designColor text-center font-bold capitalize">
               Fountain Cleaning and Repair
             </h1>{" "}
           </div>
